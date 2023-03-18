@@ -1,0 +1,21 @@
+:root {
+	/* color */
+	--a-hover-color: #cc2300;
+
+	/* font & size */
+	--basic-font: 'Pretendard', '맑은 고딕','Malgun Gothic', 'Noto Sans KR',AppleGothic,'돋움',sans-serif; 
+	
+	--h1-font-size: 1.85rem;
+    --h2-font-size: 1.55rem;
+    --h3-font-size: 1.25rem;
+
+	--pc-font-size: 16px;
+	--mobile-font-size: 15px;
+	--x-mobile-font-size: 14px;
+
+
+	--large-font-size: 1.1075rem;
+	--normal-font-size: 1.18925rem;
+	--small-font-size: .8925rem;
+	--smaller-font-size: .868rem;
+}

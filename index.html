@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> 기본 레이아웃 및 프레임워크 </title>
+	
+	
+	<!-- 같은 class에 스타일을 줄 경우 최하단에 작성한 css 를 불러오기에 기본 프레임워크를 불러오고 하단의 css 에서 가공하거나 변경해준다.  -->
+
+	<link href="assets/frameworks/bootstrap/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap CSS -->
+	<link href="assets/library/aos/aos.css" rel="stylesheet">					<!-- AOS CSS -->
+	<link href="assets/library/slick/slick.css" rel="stylesheet">				<!-- Slick CSS -->
+	
+	<link href="assets/css/variables.css" rel="stylesheet">						<!-- CSS 설정 변수 -->
+	<link href="assets/css/fonts.css" rel="stylesheet">							<!-- 웹 폰트 CSS -->
+	<link href="assets/css/reset.css" rel="stylesheet">							<!-- 기본태그 리셋 CSS -->
+	
+	<link href="assets/css/animation.css" rel="stylesheet">						<!-- 애니메이션 CSS -->
+	<link href="assets/css/component.css" rel="stylesheet">						<!-- 커스텀 제작 CSS -->
+
+	<link href="assets/css/layout.css" rel="stylesheet">						<!-- 페이지 기본 레이아웃 CSS  -->
+	<link href="assets/css/index.css" rel="stylesheet">							<!-- index.html 에서 사용할 CSS -->
+	
+
+	<script src="assets/library/jquery/jquery-3.6.4.min.js" ></script>			<!-- Jquery를 불러온다. -->
+</head>
+
+<body>
+<div id="pageLoading">
+	<div>
+		<div class="loading-container black">
+			<div class="loading"></div>
+			<div class="loading-text">Kaheal</div>
+		</div>
+	</div>
+</div>
+
+<div class="body">
+	<div class="body-inner">	
+		<header>
+			<div class="container">
+				로고, 네이버게이션 등이 위치할 부분입니다.
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				본문 내용이 들어갈 부분입니다.
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<p>Copyright © Developer Kaheal. All rights Reserved.</p>
+				<address>제공자 블로그 : <a href="https://kaheal.tistory.com/" target="_blank">Developer Kaheal</a></address>
+			</div>
+		</footer>
+	</div>
+</div>
+
+
+<script src="assets/frameworks/bootstrap/bootstrap.min.js" defer></script>		<!-- Bootstrap JS -->
+<script src="assets/library/aos/aos.js" defer></script>							<!-- AOS JS -->
+<script src="assets/library/slick/slick.min.js" defer></script>					<!-- Slick JS -->
+<script src="assets/js/common.js"></script>										<!-- 페이지 기본 설정 JS -->
+<script src="assets/js/index.js"></script>										<!-- index.html 에서 사용할 JS -->
+
+
+
+
+</body>
+</html>
